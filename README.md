@@ -1,4 +1,7 @@
+
 # Counter App in Android Studio (Java)
+
+![image](https://github.com/user-attachments/assets/6edc676e-033f-4d76-8f74-1a13d34ba9d1)
 
 This simple Android app allows users to increment, decrement, and reset a counter value.
 
