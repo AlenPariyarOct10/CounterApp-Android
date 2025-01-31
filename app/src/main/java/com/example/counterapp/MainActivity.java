@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         TextView countDisplay = findViewById(R.id.countDisplay);
 
         countDisplay.setText(String.valueOf(countNum));
-
-
         Button addBtn = findViewById(R.id.btn1);
         Button subBtn = findViewById(R.id.btn2);
 
@@ -41,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 countNum++;
                 countDisplay.setText(String.valueOf(countNum));
-
             }
         });
 
@@ -51,12 +48,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 countNum--;
                 countDisplay.setText(String.valueOf(countNum));
-
             }
         });
     }
-
-
-
-
 }
