@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView countDisplay = findViewById(R.id.countDisplay);
 
-
-
         countDisplay.setText(String.valueOf(countNum));
 
 
